@@ -3,4 +3,7 @@
   "deno.unstable": true,
   "editor.wordWrapColumn": 100,
   "debug.console.wordWrap": false,
+  "cSpell.words": [
+    "Denon"
+  ],
 }

@@ -1,14 +1,26 @@
 # experiment-vue-deno
 
-aka _Jurassic Fork_.
+aka _the Vuerassic Fork_.
 
-> Learning Deno while using Vue SSR
+> Learning Deno while with Vue SSR
 
 This is experimental project to get a feeling of working with Deno.
 
 * Use Vue SSR to put some Markup on the screen.
 
-* Working without any Node-based tooling, just to see how well that works.
+* Everything should work _without_ installing Node/NPM tooling, just to see how well that works.
+
+
+Running the experiment (requires [Deno](https://deno.land/#installation)):
+
+```console
+> deno run --allow-net server.ts
+Check file:///Volumes/Code/x1b/experiment-vue-deno/server.ts
+Listening on http://localhost:8000
+
+# or, if you have [denon](https://deno.land/x/denon@2.3.3)
+> denon start
+```
 
 
 Next Steps:
